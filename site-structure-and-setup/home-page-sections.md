@@ -14,7 +14,7 @@
 
 {% code title="sections/home-featured-collection.liquid" %}
 ```text
-<p>Hello from the featured collection page!</p>
+{{ section.settings.title }}
 
 {% schema %}
   {
