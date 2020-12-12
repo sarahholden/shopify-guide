@@ -2,8 +2,20 @@
 
 ​
 
+* [ ] For each section on the home page, **create a file in the sections folder**.
+  * Files should be formatted: `home-section-name.liquid` 
+  * Example: `home-slideshow.liquid`
+* [ ] Add a schema tag at the bottom of the file using the snippet below as a template.
+* [ ] Replace the name & category in the presets
+  * Presents are _only_ used for the home page
+  * The name and category will be shown in the CMS when the client is adding a new section \(see screenshot\)
+* [ ] Replace other text that says "Featured collection" with your section name
+* [ ] Repeat for each section on the home page.
+
 {% code title="sections/home-featured-collection.liquid" %}
 ```text
+<p>Hello from the featured collection page!</p>
+
 {% schema %}
   {
     "name": "Featured collection",
@@ -14,11 +26,6 @@
         "label": "Heading",
         "default": "Featured collection"
       },
-      {
-        "id": "collection",
-        "type": "collection",
-        "label": "Collection"
-      }
     ],
     "presets": [
       {
