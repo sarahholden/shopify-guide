@@ -10,7 +10,7 @@
   * Presents are _only_ used for the home page
   * The name and category will be shown in the CMS when the client is adding a new section \(see screenshot\)
 * [ ] Replace other text that says "Featured collection" with your section name
-* [ ] Repeat for each section on the home page.
+* [ ] Repeat for each section on the home page
 
 {% code title="sections/home-featured-collection.liquid" %}
 ```text
