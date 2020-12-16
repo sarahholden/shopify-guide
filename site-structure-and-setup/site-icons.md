@@ -1,5 +1,13 @@
 # Site Icons
 
+
+
+### Start the Project
+
+* [ ] `cd` into the theme folder in terminal.
+* [ ] Run `theme watch` from the **main theme folder**
+* [ ] Run `gulp watch` from the **dev** folder
+
 ### Setting up Site Icons
 
 Using SVG icons and including them as inline SVGs will allow you to update the SVG with CSS as needed. For example, the hover color. Any icons used throughout the site should be turned into snippets and included as inline SVGs using the following steps:

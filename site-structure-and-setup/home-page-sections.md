@@ -1,6 +1,12 @@
 # Home Page Sections
 
-​
+### Start the Project
+
+* [ ] `cd` into the theme folder in terminal.
+* [ ] Run `theme watch` from the **main theme folder**
+* [ ] Run `gulp watch` from the **dev** folder
+
+### **Steps**
 
 * [ ] For each section on the home page, **create a file in the sections folder**.
   * Files should be formatted: `home-section-name.liquid` 

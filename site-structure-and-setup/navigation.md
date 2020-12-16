@@ -2,6 +2,12 @@
 
 
 
+### Start the Project
+
+* [ ] `cd` into the theme folder in terminal.
+* [ ] Run `theme watch` from the **main theme folder**
+* [ ] Run `gulp watch` from the **dev** folder
+
 ### Setting up the navigation
 
 1. **Set up Menus in admin panel**
