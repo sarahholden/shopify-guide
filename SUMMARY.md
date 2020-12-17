@@ -10,3 +10,7 @@
 * [Site Icons](site-structure-and-setup/site-icons.md)
 * [Home Page Sections](site-structure-and-setup/home-page-sections.md)
 
+## Images
+
+* [Cropped Images](images/cropped-images.md)
+
