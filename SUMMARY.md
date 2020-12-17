@@ -12,5 +12,5 @@
 
 ## Images
 
-* [Cropped Images](images/cropped-images.md)
+* [Image Optimization](images/cropped-images.md)
 
