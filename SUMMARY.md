@@ -13,4 +13,5 @@
 ## Images
 
 * [Image Optimization](images/cropped-images.md)
+* [Liquid Images](images/liquid-images.md)
 
