@@ -10,12 +10,30 @@
 * [ ] Open the Themekit documentation [here](https://shopify.github.io/themekit/) and keep this handy.
 * [ ] Fork this [repository](https://github.com/sarahholden/shopify_themekit_starter)
 * [ ] Download to your computer
-* [ ] Initialize a new git repository for your website and push it to Github. Give collaborator access to sarahholden on Github
 
-**Create a Private App:**
+**Create a Shopify Account with Partners:**
 
 * [ ] Open the Shopify admin panel for the site, or create a development store from your partners account to get started.
   * [ ] Example: https://my-store-name.myshopify.com**/admin/**
+
+\*\*\*\*
+
+**Connect your theme to the store**
+
+* [ ] In the Shopify admin, go to Online Store &gt; Themes and **upload the starter theme zip** you downloaded from Github. This usually takes 2-3 minutes.
+* [ ] **Rename** the theme for clarity using the "Actions" dropdown. Something like "Store Name Custom Theme". Example: "Troop Custom Theme"
+* [ ] Click "**Customize**" on the theme you uploaded & renamed
+* [ ] **Copy the theme ID** from the URL bar - it's the ~12 digit number - you'll use this in the next step.
+  * Example: 116370440343
+* [ ]  Open the starter code you downloaded from Github in your code editor \(Atom, VS Code, etc.\)
+* [ ] **Update the "variables" file** in the starter theme you downloaded from Github:
+  * [ ] Replace the **Theme ID** from the last step next to `SH_DEV_THEMEID=`
+  * [ ] Delete the password after `SH_DEV_PASSWD=`\(you'll add a new one in the next section of steps "Create a Private App" below\)
+  * [ ] Replace the **Store URL** in the variables file next to `SH_DEV_SHOP=`
+    * No final "/" after the URL. 
+
+**Create a Private App:**
+
 * [ ] Create a private app
   * [ ] In the store’s Shopify admin, click **Apps**. 
   * [ ] Near the bottom of the page, click on **Manage private apps**.
@@ -25,20 +43,10 @@
   * [ ] Toggle the **Show inactive Admin API permissions.** 
   * [ ] Scroll to the “Themes” section and select **Read and write** from the dropdown.
   * [ ] **Save**
-  * [ ] **Copy the password** and keep it handy for a step soon :\)
+  * [ ] Copy the password that is generated and replace the **API password** in the **variables file** after`SH_DEV_PASSWD=`
 
-**Connect your theme to the store**
+**Start the App:**
 
-* [ ] In the Shopify admin, go to Online Store &gt; Themes and **upload the starter theme zip** you downloaded from Github.
-* [ ] **Rename** the theme for clarity using the "Actions" dropdown. Something like "Store Name Custom Theme". Example: "Troop Custom Theme"
-* [ ] Click "**Customize**" on the theme you uploaded & renamed
-* [ ] **Copy the theme ID** from the URL bar - it's the ~12 digit number - you'll use this in the next step.
-  * Example: 116370440343
-* [ ] **Update the "variables" file** in the starter theme you downloaded from Github:
-  * [ ] Replace the **Theme ID** from the last step next to `SH_DEV_THEMEID=`
-  * [ ] Replace in the **API password** you copied earlier next to `SH_DEV_PASSWD=`
-  * [ ] Replace the **Store URL** in the variables file next to `SH_DEV_SHOP=`
-    * No final "/" after the URL. 
 * [ ] Go to the command line - cd into the theme folder and run this command:  `theme watch`
   * If this theme is live on the development store - you may need to use this: `theme watch --allow-live`
 
@@ -48,6 +56,12 @@
 * [ ] Add "Hello World" in layout &gt; theme.liquid
 * [ ] Save & make sure you see this message on the site
 * [ ] cd into the "dev" folder, run `gulp watch`, and make sure this is set by changing the background of the body to red 
+
+**Get set on Git**
+
+* [ ] Create a new git repository in the Starter Code you downloaded. 
+* [ ] Add, commit, Push it to Github
+* [ ] Give access to collaborators \(sarahholden\)
 
 You're set!
 
