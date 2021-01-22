@@ -10,6 +10,7 @@
 * [ ] Open the Themekit documentation [here](https://shopify.github.io/themekit/) and keep this handy.
 * [ ] Fork this [repository](https://github.com/sarahholden/shopify_themekit_starter)
 * [ ] Download to your computer
+* [ ] Initialize a new git repository for your website and push it to Github. Give collaborator access to sarahholden on Github
 
 **Create a Private App:**
 
