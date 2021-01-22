@@ -63,7 +63,7 @@
 
 **Get set on Git**
 
-* [ ] Add, commit, Push it to Github
+* [ ] Add, commit, Push it to Github \(make sure you're pushing to your forked repo and not updating the starter code :\) \)
 * [ ] Give access to collaborators \(sarahholden\)
 
 You're set!
