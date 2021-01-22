@@ -54,7 +54,7 @@
 * [ ] Go to the command line - cd into the theme folder and run this command:  `theme watch --env=development`
   * If this theme is live on the development store - you may need to use this: `theme watch --allow-live`
 
-**Make sure you're hooked up**
+**Make sure you see your changes on the site.** 
 
 * [ ] Go to Online Store &gt; Themes and click "Actions" &gt; "Preview" on the theme you uploaded. 
 * [ ] Add "Hello World" in layout &gt; theme.liquid
