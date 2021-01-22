@@ -53,6 +53,9 @@
 
 * [ ] Go to the command line - cd into the theme folder and run this command:  `theme watch --env=development`
   * If this theme is live on the development store - you may need to use this: `theme watch --allow-live`
+* [ ] In a new tab on the command line, cd into the **dev** folder inside the theme folder
+* [ ] Run `npm install`
+* [ ] Run `gulp watch`  which will compile your scss and js files
 
 **Make sure you see your changes when previewing your Shopify theme.**
 
