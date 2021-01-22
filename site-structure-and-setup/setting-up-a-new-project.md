@@ -9,7 +9,7 @@
 
 * [ ] Open the Themekit documentation [here](https://shopify.github.io/themekit/) and keep this handy.
 * [ ] Fork this [repository](https://github.com/sarahholden/shopify_themekit_starter)
-* [ ] Download to your computer
+* [ ] Download to your computer. Zip should be fine
 
 **Create a Shopify Account with Partners:**
 
@@ -63,7 +63,6 @@
 
 **Get set on Git**
 
-* [ ] Create a new git repository in the Starter Code you downloaded. 
 * [ ] Add, commit, Push it to Github
 * [ ] Give access to collaborators \(sarahholden\)
 
