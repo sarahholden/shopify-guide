@@ -16,21 +16,25 @@
 * [ ] Open the Shopify admin panel for the site, or create a development store from your partners account to get started.
   * [ ] Example: https://my-store-name.myshopify.com**/admin/**
 
-\*\*\*\*
-
-**Connect your theme to the store**
+**Upload the Starter Theme to your Shopify site**
 
 * [ ] In the Shopify admin, go to Online Store &gt; Themes and **upload the starter theme zip** you downloaded from Github. This usually takes 2-3 minutes.
 * [ ] **Rename** the theme for clarity using the "Actions" dropdown. Something like "Store Name Custom Theme". Example: "Troop Custom Theme"
 * [ ] Click "**Customize**" on the theme you uploaded & renamed
 * [ ] **Copy the theme ID** from the URL bar - it's the ~12 digit number - you'll use this in the next step.
   * Example: 116370440343
-* [ ]  Open the starter code you downloaded from Github in your code editor \(Atom, VS Code, etc.\)
+
+**Connect your theme to the store**
+
+* [ ] Unzip the starter code you downloaded from Github. 
+* [ ] Rename the folder to avoid confusion
+* [ ] Open the code in your code editor \(Atom, VS Code, etc.\)
 * [ ] **Update the "variables" file** in the starter theme you downloaded from Github:
   * [ ] Replace the **Theme ID** from the last step next to `SH_DEV_THEMEID=`
   * [ ] Delete the password after `SH_DEV_PASSWD=`\(you'll add a new one in the next section of steps "Create a Private App" below\)
   * [ ] Replace the **Store URL** in the variables file next to `SH_DEV_SHOP=`
     * No final "/" after the URL. 
+    * Example: sarahs-super-cool-site.myshopify.com
 
 **Create a Private App:**
 
@@ -47,7 +51,7 @@
 
 **Start the App:**
 
-* [ ] Go to the command line - cd into the theme folder and run this command:  `theme watch`
+* [ ] Go to the command line - cd into the theme folder and run this command:  `theme watch --env=development`
   * If this theme is live on the development store - you may need to use this: `theme watch --allow-live`
 
 **Make sure you're hooked up**
